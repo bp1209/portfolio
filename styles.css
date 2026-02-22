@@ -46,7 +46,7 @@ body {
     padding: 20px;
 }
 
-/* About section styling */
+/* About section styling 
 .about {
     background: #fff;
     padding: 40px 20px;
@@ -156,3 +156,4 @@ footer .social-media img {
 footer .social-media img:hover {
     transform: scale(1.1);
 }
+
