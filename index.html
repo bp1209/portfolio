@@ -8,15 +8,86 @@
     <script src="includes.js" defer></script>
 </head>
 <body>
-    <header></header>
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Welcome to My Portfolio</h1>
-                <p>Explore my projects and blog posts on data analysis.</p>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <h1 class="logo">Bhargav Parekh</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>Hello, I'm Bhargav Parekh</h2>
+                <p>Data Analyst / Business Analyst | Transforming Data into Insights</p>
+                <div class="hero-buttons">
+                    <a href="about.html" class="btn-primary">About Me</a>
+                    <a href="#projects" class="btn-secondary">View Projects</a>
+                </div>
             </div>
-        </section>
-    </main>
-    <footer></footer>
+            <div class="hero-image">
+                <img src="bp.jpg" alt="Bhargav Parekh">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Preview -->
+    <section class="skills-preview">
+        <div class="container">
+            <h2>Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Python</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">R</div>
+                <div class="skill-card">Tableau</div>
+                <div class="skill-card">Power BI</div>
+                <div class="skill-card">Excel</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Short description of the project with key insights.</p>
+                    <a href="#" class="btn-secondary">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Short description of the project with key insights.</p>
+                    <a href="#" class="btn-secondary">View on GitHub</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <h2>Contact Me</h2>
+            <p>If you’d like to collaborate or discuss a project, feel free to reach out.</p>
+            <a href="mailto:bhargav@example.com" class="btn-primary">Email Me</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Bhargav Parekh | Data Analyst</p>
+    </footer>
+
 </body>
 </html>
